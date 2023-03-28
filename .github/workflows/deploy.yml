@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
 jobs:
-  build and unit test:
+  buildandunittest:
     runs-on: ubuntu-latest
     steps:
       #check out the repo
