@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
 jobs: 
-  Build and test:
+  BuildandTest:
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js
